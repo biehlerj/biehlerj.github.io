@@ -1,0 +1,36 @@
+baseURL: http://example.org/
+languageCode: en-us
+title: Jacob Biehler
+theme: PaperMod
+
+params:
+  title: Jacob Biehler
+  description: "Jacob Biehler's Personal Website"
+  keywords: [Blog, Portfolio, PaperMod]
+  author: Jacob Biehler
+  defaultTheme: dark
+  profileMode:
+    enabled: true
+    subtitle: "Software Engineer and FOSS Enthusiast"
+    imageUrl: "pfp.webp"
+    imageTitle: "Jacob Biehler's profile picture"
+    buttons:
+      - name: Experience
+        url: "/experience"
+      - name: Projects
+        url: "/projects"
+      - name: Education
+        url: "/education"
+  socialIcons:
+    - name: sourcehut
+      url: "https://git.sr.ht/~biehlerj"
+    - name: github
+      url: "https://github.com/biehlerj"
+    - name: gitlab
+      url: "https://gitlab.com/biehlerj"
+    - name: keybase
+      url: "https://keybase.io/biehlerj"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/jacob-biehler-475573139/"
+    - name: email
+      url: "jacob@biehlerj.xyz"

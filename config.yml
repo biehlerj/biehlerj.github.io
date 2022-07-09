@@ -4,6 +4,7 @@ title: Jacob Biehler
 theme: PaperMod
 
 params:
+  env: production
   title: Jacob Biehler
   description: "Jacob Biehler's Personal Website"
   keywords: [Blog, Portfolio, PaperMod]
@@ -34,3 +35,13 @@ params:
       url: "https://www.linkedin.com/in/jacob-biehler-475573139/"
     - name: email
       url: "jacob@biehlerj.xyz"
+
+menu:
+  main:
+    - identifier: aboutme
+      name: "About Me"
+      url: "/about"
+      weight: 7
+    - identifier: resume
+      name: "Download my Resume"
+      url: 

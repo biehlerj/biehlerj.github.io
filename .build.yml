@@ -1,7 +1,6 @@
-image: alpine/edge
+image: alpine/latest
 packages:
   - hugo
-  - hut
 oauth: pages.sr.ht/PAGES:RW
 environment:
   site: biehlerj.srht.site
@@ -11,4 +10,4 @@ tasks:
     hugo
     tar -C public -cvz . > ../site.tar.gz
 - upload: |
-    hut pages publish -d $site site.tar.gz
+    acurl -f https://pages.sr.ht/publish/$site -Fcontent=@site.tar.gz

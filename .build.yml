@@ -1,0 +1,14 @@
+image: alpine/latest
+packages:
+  - hugo
+  - hut
+oauth: pages.sr.ht/PAGES:RW
+environment:
+  site: biehlerj.srht.site
+tasks:
+- package: |
+    cd $site
+    hugo
+    tar -C public -cvz . > ../site.tar.gz
+- upload: |
+    hut pages publish -d $site site.tar.gz

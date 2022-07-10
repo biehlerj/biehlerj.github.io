@@ -6,7 +6,7 @@ environment:
   site: biehlerj.srht.site
 tasks:
 - package: |
-    cd $site
+    cd biehlerj.xyz
     hugo
     tar -C public -cvz . > ../site.tar.gz
 - upload: |

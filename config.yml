@@ -2,6 +2,7 @@ baseURL: http://example.org/
 languageCode: en-us
 title: Jacob Biehler
 theme: PaperMod
+pluralizeListTitles: "false"
 
 params:
   env: production
@@ -42,6 +43,19 @@ menu:
       name: "About Me"
       url: "/about"
       weight: 7
+    - identifier: experience
+      name: Experience
+      url: "/experience"
+      weight: 8
+    - identifier: projects
+      name: Projects
+      url: "/projects"
+      weight: 9
+    - identifier: education
+      name: Education
+      url: "/education"
+      weight: 10
     - identifier: resume
       name: "Download my Resume"
-      url: 
+      url: "resume.pdf"
+      weight: 11

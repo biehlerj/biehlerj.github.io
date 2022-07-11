@@ -3,10 +3,10 @@ packages:
   - hugo
 oauth: pages.sr.ht/PAGES:RW
 environment:
-  site: biehlerj.srht.site
+  site: biehlerj.xyz
 tasks:
 - package: |
-    cd biehlerj.xyz
+    cd $site
     hugo
     tar -C public -cvz . > ../site.tar.gz
 - upload: |

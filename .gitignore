@@ -12,3 +12,4 @@ hugo.linux
 # Temporary lock file while building
 /.hugo_build.lock
 site.tar.gz
+node_modules

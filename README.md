@@ -4,10 +4,11 @@ This repository contains the code for my [personal website](https://biehlerj.xyz
 
 ## TODOs
 
-1. Automate build and deployment to [Vultr](https://www.vultr.com/?ref=8950079) using [Github's build tools](https://github.com/features/actions)
-2. Create blog with the following initial articles:
+1. Customize dark and light themes to use [Catppuccin](https://github.com/catppuccin/catppuccin)
+2. Automate build and deployment to [Vultr](https://www.vultr.com/?ref=8950079) using [Github's build tools](https://github.com/features/actions)
+3. Create blog with the following initial articles:
    1. Why I switched from Github to Sourcehut
    2. Why I switched from Next.js to Hugo for my website
    3. My dotfiles and why I use Pop!_OS
    4. My experience with the [HP Dev One](https://hpdevone.com/)
-3. Add RSS for blog
+4. Add RSS for blog

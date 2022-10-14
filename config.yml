@@ -24,8 +24,6 @@ params:
       - name: Education
         url: "/education"
   socialIcons:
-    - name: sourcehut
-      url: "https://git.sr.ht/~biehlerj"
     - name: github
       url: "https://github.com/biehlerj"
     - name: gitlab

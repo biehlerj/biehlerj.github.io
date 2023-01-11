@@ -1,0 +1,15 @@
+{
+    "configurations": [
+        {
+            "type": "command",
+            "name": "Dev",
+            "program": "hugo",
+            "args": ["server"],
+        },
+        {
+            "type": "command",
+            "name": "Build",
+            "program": "hugo",
+        }
+    ]
+}

@@ -7,8 +7,7 @@ title: "Moebius Solutions"
 [Moebius Solutions, Inc.](https://www.moesol.com/) develops advanced Command and Control software, middleware, and integration platforms for the
 Navy and Marine Corps. Moebius Solutions has a focus on Opensource Culture and Technical Excellence.
 
-I currently work at Moebius Solutions as a Jr. Software Engineer working for different customers. During my time at
-Moebius I've worked on the following:
+While working Moebius Solutions as a Jr. Software Engineer working for different customers, I did the following:
 
 - Contributed to the [AutoInvent](https://github.com/autoinvent) projects [Magql](https://github.com/autoinvent/magql)
 and [Conveyor](https://github.com/autoinvent/conveyor)

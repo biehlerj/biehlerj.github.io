@@ -31,7 +31,7 @@ params:
     - name: keybase
       url: "https://keybase.io/biehlerj"
     - name: linkedin
-      url: "https://www.linkedin.com/in/jacob-biehler-475573139/"
+      url: "https://www.linkedin.com/in/jacob-biehler/"
     - name: email
       url: "mailto:jacob@biehlerj.xyz"
 

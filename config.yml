@@ -54,6 +54,6 @@ menu:
       url: "/education"
       weight: 10
     - identifier: resume
-      name: "Download my Resume"
+      name: "Resume"
       url: "resume.pdf"
       weight: 11

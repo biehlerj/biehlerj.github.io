@@ -1,4 +1,0 @@
-This is a Brave Rewards publisher verification file.
-
-Domain: biehlerj.xyz
-Token: 7b1d7bc5acb9eb25b701cb4d0b9f738c44ba74b238488f9d7b871d4e80c70946
